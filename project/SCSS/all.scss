@@ -1,0 +1,5 @@
+@for $i from 1 through 16 {
+    .g-item:nth-child(#{$i}) {
+        transform: rotate(#{($i - 1) * 6deg});
+    }
+}
